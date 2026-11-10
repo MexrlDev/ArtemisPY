@@ -5,6 +5,8 @@ original PS3 source (848x512 virtual screen, Comfortaa fonts, 128-frame menu ani
 Original Artemis: Berion (GUI design), NzV, Dnawrkshp (GUI/PRX), Bucanero (network code). Python port: MexrlDev.
 Free to use, mod and publish with credits to the original creators.
 
+This project was made after my [2025 Artemis port](https://github.com/MexrlDev/PsVue-Mod/tree/main/Apollo%20%2B%20Artemis%20python/Artemis) attempt.
+
 ## Run
     pip install -r requirements.txt
     python main.py
