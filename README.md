@@ -1,4 +1,4 @@
-# Artemis PS3 - PC port (Python / pygame)
+# Artemis PS3 - PY port
 
 Python port of the **ArtemisPS3-GUI** cheat manager. Layout, sizes, fonts and animations follow the
 original PS3 source (848x512 virtual screen, Comfortaa fonts, 128-frame menu animations, sliding side panels).
@@ -33,6 +33,14 @@ Options, About, controls help (F1), dialogs, loading spinner, closing animation.
 * Enabled cheats are remembered in `artemis_config.json`. **Start game** writes them to `artemis_active.txt`
   (or NCL format, see Options > Export Format). A PC cannot inject into a PS3, so this is an export.
 
-## Tests
-`tests/smoke.py` runs the whole UI headlessly with a PIL stand-in for pygame and saves screenshots
-(`python tests/smoke.py OUT_DIR static|anim`).
+  ## Credit
+~~~  
+Lazy Bastard    -   Project Founder
+Berion          -   GUI Graphic Designer
+Dnawrkshp       -   Creator of ArtemisPS3-GUI and ArtemisPS3-PRX
+NzV             -   PS3MAPI (on which Artemis is dependant upon)
+PS2Dragon       -   Artemis Logo
+Bucanero        -   Network code
+MexrlDev        -   Python port
+~~~
+  * See [LICENSE](LICENSE)
